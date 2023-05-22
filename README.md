@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,23 +10,18 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
+The technology used in the application:
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The reason behind this choice was primarily due to the need for server-side rendering and improved SEO. Next.js excels in delivering faster initial page loads, which is crucial for my content-heavy website. Additionally, Next.js being built on React provided the advantage of a robust component-based architecture and an extensive ecosystem. The full-stack capabilities of Next.js, including serverless functions and API routes, were also appealing for handling both client-side and server-side logic. While there was a learning curve and some complexity involved, the benefits of Next.js in terms of performance, scalability, and development experience made it the ideal choice for my web application
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In choosing Tailwind CSS for my web application, I valued its utility-first approach and extensive pre-built classes for rapid styling. However, it's important to note the trade-offs. It may lead to larger file sizes and potentially less semantic markup. The initial learning curve to understand utility class naming and configuration is required. Tailwind CSS may limit design flexibility, and customization efforts can increase complexity. Nonetheless, the benefits of improved productivity, code maintainability, and consistent styling influenced my decision.
 
-## Learn More
+Using TypeScript in conjunction with Tailwind CSS brings advantages such as enhanced type safety, improved developer experience, better scalability, access to a rich ecosystem, and reduced runtime errors. However, it comes with a learning curve, slight compilation overhead, increased verbosity, and potential tooling limitations. Despite these trade-offs, the benefits of TypeScript, including improved code quality and productivity, make it a valuable choice for web development projects.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
